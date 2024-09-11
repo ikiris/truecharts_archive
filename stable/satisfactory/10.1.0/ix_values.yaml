@@ -17,7 +17,7 @@ service:
         targetPort: 7777
         port: 7777
         protocol: udp
-  API:
+  api:
     enabled: true
     ports:
       query:
