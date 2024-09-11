@@ -17,14 +17,11 @@ service:
         targetPort: 7777
         port: 7777
         protocol: udp
-  api:
-    enabled: true
-    ports:
-      query:
+      tcp:
         enabled: true
         port: 7777
         targetPort: 7777
-        protocol: udp
+        protocol: tcp
 portal:
   open:
     enabled: false
