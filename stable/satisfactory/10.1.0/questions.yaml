@@ -601,7 +601,7 @@ questions:
                               type: int
                               default: 7777
                               required: true
-        - variable: API
+        - variable: api
           label: "API Service"
           description: "The API service"
           schema:
