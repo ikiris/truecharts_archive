@@ -17,6 +17,8 @@ service:
         targetPort: 7777
         port: 7777
         protocol: udp
+  api:
+    ports:
       api:
         enabled: true
         port: 7777
